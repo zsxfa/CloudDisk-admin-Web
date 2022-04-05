@@ -1,0 +1,156 @@
+2022-04-02 10:44:43,408 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2022-04-02 10:44:43,502 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.56.1:58788, agent: Nacos-Java-Client:v1.2.1, key: 192.168.56.1,58788,1360882600005100
+
+2022-04-02 10:44:43,509 INFO send udp packet: 192.168.56.1,58788,1360882600005100
+
+2022-04-02 10:44:43,527 INFO [PUSH-SUCC] 124ms, all delay time 725ms for subscriber 192.168.56.1, Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=1}, DataSize=1
+
+2022-04-02 15:57:20,441 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2022-04-02 15:57:20,469 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.56.1:58788, agent: Nacos-Java-Client:v1.2.1, key: 192.168.56.1,58788,1379639627867000
+
+2022-04-02 15:57:20,471 INFO send udp packet: 192.168.56.1,58788,1379639627867000
+
+2022-04-02 15:57:20,515 INFO [PUSH-SUCC] 76ms, all delay time 688ms, SLA 690ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=1}, DataSize=1, target=192.168.56.1
+
+2022-04-02 15:57:34,527 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2022-04-02 15:57:34,533 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.56.1:58788, agent: Nacos-Java-Client:v1.2.1, key: 192.168.56.1,58788,1379653715012500
+
+2022-04-02 15:57:34,534 INFO send udp packet: 192.168.56.1,58788,1379653715012500
+
+2022-04-02 15:57:34,563 INFO [PUSH-SUCC] 36ms, all delay time 612ms, SLA 612ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=2}, DataSize=1, target=192.168.56.1
+
+2022-04-02 16:00:50,438 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2022-04-02 16:00:50,439 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.56.1:58788, agent: Nacos-Java-Client:v1.2.1, key: 192.168.56.1,58788,1379849620797200
+
+2022-04-02 16:00:50,439 INFO send udp packet: 192.168.56.1,58788,1379849620797200
+
+2022-04-02 16:00:50,444 INFO [PUSH-SUCC] 6ms, all delay time 532ms, SLA 532ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=2}, DataSize=1, target=192.168.56.1
+
+2022-04-02 16:00:56,731 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2022-04-02 16:00:56,732 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.56.1:58788, agent: Nacos-Java-Client:v1.2.1, key: 192.168.56.1,58788,1379855914110200
+
+2022-04-02 16:00:56,732 INFO send udp packet: 192.168.56.1,58788,1379855914110200
+
+2022-04-02 16:00:56,739 INFO [PUSH-SUCC] 8ms, all delay time 602ms, SLA 602ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=3}, DataSize=1, target=192.168.56.1
+
+2022-04-02 16:03:25,651 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2022-04-02 16:03:25,653 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.56.1:51581, agent: Nacos-Java-Client:v1.2.1, key: 192.168.56.1,51581,1380004835298000
+
+2022-04-02 16:03:25,653 INFO send udp packet: 192.168.56.1,51581,1380004835298000
+
+2022-04-02 16:03:25,657 INFO [PUSH-SUCC] 6ms, all delay time 555ms for subscriber 192.168.56.1, Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=3}, DataSize=1
+
+2022-04-02 16:27:00,884 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2022-04-02 16:27:00,896 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.56.1:51581, agent: Nacos-Java-Client:v1.2.1, key: 192.168.56.1,51581,1381420070731100
+
+2022-04-02 16:27:00,899 INFO send udp packet: 192.168.56.1,51581,1381420070731100
+
+2022-04-02 16:27:00,928 INFO [PUSH-SUCC] 45ms, all delay time 556ms, SLA 557ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=3}, DataSize=1, target=192.168.56.1
+
+2022-04-02 16:27:11,944 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2022-04-02 16:27:11,947 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.56.1:51581, agent: Nacos-Java-Client:v1.2.1, key: 192.168.56.1,51581,1381431129286200
+
+2022-04-02 16:27:11,948 INFO send udp packet: 192.168.56.1,51581,1381431129286200
+
+2022-04-02 16:27:11,968 INFO [PUSH-SUCC] 24ms, all delay time 611ms, SLA 611ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=4}, DataSize=1, target=192.168.56.1
+
+2022-04-02 16:33:46,066 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2022-04-02 16:33:46,074 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.56.1:51581, agent: Nacos-Java-Client:v1.2.1, key: 192.168.56.1,51581,1381825252637000
+
+2022-04-02 16:33:46,076 INFO send udp packet: 192.168.56.1,51581,1381825252637000
+
+2022-04-02 16:33:46,090 INFO [PUSH-SUCC] 25ms, all delay time 585ms, SLA 585ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=4}, DataSize=1, target=192.168.56.1
+
+2022-04-02 16:33:56,823 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2022-04-02 16:33:56,824 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.56.1:51581, agent: Nacos-Java-Client:v1.2.1, key: 192.168.56.1,51581,1381836006430300
+
+2022-04-02 16:33:56,824 INFO send udp packet: 192.168.56.1,51581,1381836006430300
+
+2022-04-02 16:33:56,830 INFO [PUSH-SUCC] 7ms, all delay time 596ms, SLA 596ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=5}, DataSize=1, target=192.168.56.1
+
+2022-04-02 16:49:36,555 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2022-04-02 16:49:36,566 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.56.1:51581, agent: Nacos-Java-Client:v1.2.1, key: 192.168.56.1,51581,1382775740559700
+
+2022-04-02 16:49:36,567 INFO send udp packet: 192.168.56.1,51581,1382775740559700
+
+2022-04-02 16:49:36,591 INFO [PUSH-SUCC] 37ms, all delay time 588ms, SLA 589ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=5}, DataSize=1, target=192.168.56.1
+
+2022-04-02 16:49:41,730 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2022-04-02 16:49:41,732 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.56.1:51581, agent: Nacos-Java-Client:v1.2.1, key: 192.168.56.1,51581,1382780913501200
+
+2022-04-02 16:49:41,732 INFO send udp packet: 192.168.56.1,51581,1382780913501200
+
+2022-04-02 16:49:41,744 INFO [PUSH-SUCC] 14ms, all delay time 545ms, SLA 545ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=6}, DataSize=1, target=192.168.56.1
+
+2022-04-02 16:50:46,520 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2022-04-02 16:50:46,522 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.56.1:51581, agent: Nacos-Java-Client:v1.2.1, key: 192.168.56.1,51581,1382845704031500
+
+2022-04-02 16:50:46,522 INFO send udp packet: 192.168.56.1,51581,1382845704031500
+
+2022-04-02 16:50:46,529 INFO [PUSH-SUCC] 9ms, all delay time 509ms, SLA 509ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=6}, DataSize=1, target=192.168.56.1
+
+2022-04-02 16:50:51,088 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2022-04-02 16:50:51,089 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.56.1:51581, agent: Nacos-Java-Client:v1.2.1, key: 192.168.56.1,51581,1382850271437900
+
+2022-04-02 16:50:51,089 INFO send udp packet: 192.168.56.1,51581,1382850271437900
+
+2022-04-02 16:50:51,095 INFO [PUSH-SUCC] 7ms, all delay time 533ms, SLA 533ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=7}, DataSize=1, target=192.168.56.1
+
+2022-04-02 16:56:36,666 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2022-04-02 16:56:36,667 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.56.1:51581, agent: Nacos-Java-Client:v1.2.1, key: 192.168.56.1,51581,1383195849133200
+
+2022-04-02 16:56:36,667 INFO send udp packet: 192.168.56.1,51581,1383195849133200
+
+2022-04-02 16:56:36,671 INFO [PUSH-SUCC] 5ms, all delay time 588ms, SLA 588ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=7}, DataSize=1, target=192.168.56.1
+
+2022-04-02 16:56:46,008 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2022-04-02 16:56:46,010 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.56.1:51581, agent: Nacos-Java-Client:v1.2.1, key: 192.168.56.1,51581,1383205191790900
+
+2022-04-02 16:56:46,010 INFO send udp packet: 192.168.56.1,51581,1383205191790900
+
+2022-04-02 16:56:46,018 INFO [PUSH-SUCC] 10ms, all delay time 537ms, SLA 537ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=8}, DataSize=1, target=192.168.56.1
+
+2022-04-02 17:18:56,932 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2022-04-02 17:18:56,940 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.56.1:51581, agent: Nacos-Java-Client:v1.2.1, key: 192.168.56.1,51581,1384536116287000
+
+2022-04-02 17:18:56,942 INFO send udp packet: 192.168.56.1,51581,1384536116287000
+
+2022-04-02 17:18:56,958 INFO [PUSH-SUCC] 27ms, all delay time 614ms, SLA 616ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=8}, DataSize=1, target=192.168.56.1
+
+2022-04-02 17:19:05,252 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2022-04-02 17:19:05,253 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.56.1:51581, agent: Nacos-Java-Client:v1.2.1, key: 192.168.56.1,51581,1384544435440600
+
+2022-04-02 17:19:05,253 INFO send udp packet: 192.168.56.1,51581,1384544435440600
+
+2022-04-02 17:19:05,260 INFO [PUSH-SUCC] 8ms, all delay time 600ms, SLA 600ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=9}, DataSize=1, target=192.168.56.1
+
+2022-04-02 17:27:51,991 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2022-04-02 17:27:51,992 INFO serviceName: DEFAULT_GROUP@@gulimall-product changed, schedule push for: 192.168.56.1:51581, agent: Nacos-Java-Client:v1.2.1, key: 192.168.56.1,51581,1385071174379800
+
+2022-04-02 17:27:51,993 INFO send udp packet: 192.168.56.1,51581,1385071174379800
+
+2022-04-02 17:28:02,023 INFO retry to push data, key: 192.168.56.1,51581,1385071174379800
+
+2022-04-02 17:28:12,062 WARN max re-push times reached, retry times 2, key: 192.168.56.1,51581,1385071174379800
+
+2022-04-02 17:28:12,075 ERROR [PUSH-FAIL] 20080ms, Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=10}, reason=null, target=192.168.56.1
+

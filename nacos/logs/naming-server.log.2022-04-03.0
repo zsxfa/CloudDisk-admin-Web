@@ -1,0 +1,146 @@
+2022-04-03 09:12:17,322 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-04-03 09:12:17,322 WARN Using naming.distro config to replace core.distro config
+
+2022-04-03 09:12:17,766 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-04-03 09:12:17,767 INFO listen for service meta change
+
+2022-04-03 09:12:23,463 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-04-03 09:12:23,467 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.CmdbLabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-04-03 09:12:26,936 INFO Load instance extension handler []
+
+2022-04-03 10:27:50,949 INFO Client connection 192.168.56.1:7000#true connect
+
+2022-04-03 10:27:51,139 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-coupon', ephemeral=true, revision=0}, 192.168.56.1:7000#true
+
+2022-04-03 10:27:59,802 INFO Client connection 192.168.56.1:12000#true connect
+
+2022-04-03 10:27:59,802 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-search', ephemeral=true, revision=0}, 192.168.56.1:12000#true
+
+2022-04-03 10:28:20,333 INFO Client connection 192.168.56.1:10000#true connect
+
+2022-04-03 10:28:20,333 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=0}, 192.168.56.1:10000#true
+
+2022-04-03 10:28:25,656 INFO Client connection 192.168.56.1:11000#true connect
+
+2022-04-03 10:28:25,656 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-ware', ephemeral=true, revision=0}, 192.168.56.1:11000#true
+
+2022-04-03 10:28:35,561 INFO Client connection 192.168.56.1:8000#true connect
+
+2022-04-03 10:28:35,561 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-member', ephemeral=true, revision=0}, 192.168.56.1:8000#true
+
+2022-04-03 10:28:54,156 INFO Client connection 192.168.56.1:88#true connect
+
+2022-04-03 10:28:54,157 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-gateway', ephemeral=true, revision=0}, 192.168.56.1:88#true
+
+2022-04-03 10:29:02,334 INFO Client connection 192.168.56.1:8080#true connect
+
+2022-04-03 10:29:02,334 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='renren-fast', ephemeral=true, revision=0}, 192.168.56.1:8080#true
+
+2022-04-03 10:47:35,734 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=1}, ip: {"ip":"192.168.56.1","port":10000,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.56.1#10000#DEFAULT#DEFAULT_GROUP@@gulimall-product"},"lastHeartBeatTime":1648954021270,"metadataId":"192.168.56.1:10000:DEFAULT"}
+
+2022-04-03 10:47:35,735 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=1}, 192.168.56.1:10000#true
+
+2022-04-03 10:47:39,959 INFO Client connection 192.168.56.1:10000#true disconnect, remove instances and subscribers
+
+2022-04-03 10:47:49,222 INFO Client connection 192.168.56.1:10000#true connect
+
+2022-04-03 10:47:49,223 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=2}, 192.168.56.1:10000#true
+
+2022-04-03 20:01:34,958 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=3}, 192.168.56.1:10000#true
+
+2022-04-03 20:02:06,728 INFO Client connection 192.168.56.1:10000#true disconnect, remove instances and subscribers
+
+2022-04-03 20:02:50,544 INFO Client connection 192.168.56.1:10000#true connect
+
+2022-04-03 20:02:50,547 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=4}, 192.168.56.1:10000#true
+
+2022-04-03 20:12:52,637 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-ware', ephemeral=true, revision=1}, ip: {"ip":"192.168.56.1","port":11000,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.56.1#11000#DEFAULT#DEFAULT_GROUP@@gulimall-ware"},"lastHeartBeatTime":1648987941926,"metadataId":"192.168.56.1:11000:DEFAULT"}
+
+2022-04-03 20:12:52,637 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-ware', ephemeral=true, revision=1}, 192.168.56.1:11000#true
+
+2022-04-03 20:12:52,975 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-coupon', ephemeral=true, revision=1}, ip: {"ip":"192.168.56.1","port":7000,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.56.1#7000#DEFAULT#DEFAULT_GROUP@@gulimall-coupon"},"lastHeartBeatTime":1648987942472,"metadataId":"192.168.56.1:7000:DEFAULT"}
+
+2022-04-03 20:12:52,975 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-coupon', ephemeral=true, revision=1}, 192.168.56.1:7000#true
+
+2022-04-03 20:12:55,702 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-gateway', ephemeral=true, revision=1}, ip: {"ip":"192.168.56.1","port":88,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.56.1#88#DEFAULT#DEFAULT_GROUP@@gulimall-gateway"},"lastHeartBeatTime":1648987941530,"metadataId":"192.168.56.1:88:DEFAULT"}
+
+2022-04-03 20:12:55,702 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-gateway', ephemeral=true, revision=1}, 192.168.56.1:88#true
+
+2022-04-03 20:12:56,377 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-search', ephemeral=true, revision=1}, ip: {"ip":"192.168.56.1","port":12000,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.56.1#12000#DEFAULT#DEFAULT_GROUP@@gulimall-search"},"lastHeartBeatTime":1648987942784,"metadataId":"192.168.56.1:12000:DEFAULT"}
+
+2022-04-03 20:12:56,377 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-search', ephemeral=true, revision=1}, 192.168.56.1:12000#true
+
+2022-04-03 20:12:56,859 INFO Client connection 192.168.56.1:12000#true disconnect, remove instances and subscribers
+
+2022-04-03 20:12:56,859 INFO Client connection 192.168.56.1:11000#true disconnect, remove instances and subscribers
+
+2022-04-03 20:12:56,859 INFO Client connection 192.168.56.1:7000#true disconnect, remove instances and subscribers
+
+2022-04-03 20:12:56,859 INFO Client connection 192.168.56.1:88#true disconnect, remove instances and subscribers
+
+2022-04-03 20:12:57,064 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-member', ephemeral=true, revision=1}, ip: {"ip":"192.168.56.1","port":8000,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.56.1#8000#DEFAULT#DEFAULT_GROUP@@gulimall-member"},"lastHeartBeatTime":1648987943688,"metadataId":"192.168.56.1:8000:DEFAULT"}
+
+2022-04-03 20:12:57,064 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-member', ephemeral=true, revision=1}, 192.168.56.1:8000#true
+
+2022-04-03 20:12:58,638 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='renren-fast', ephemeral=true, revision=1}, ip: {"ip":"192.168.56.1","port":8080,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.56.1#8080#DEFAULT#DEFAULT_GROUP@@renren-fast"},"lastHeartBeatTime":1648987944495,"metadataId":"192.168.56.1:8080:DEFAULT"}
+
+2022-04-03 20:12:58,638 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='renren-fast', ephemeral=true, revision=1}, 192.168.56.1:8080#true
+
+2022-04-03 20:13:00,652 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=5}, ip: {"ip":"192.168.56.1","port":10000,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.56.1#10000#DEFAULT#DEFAULT_GROUP@@gulimall-product"},"lastHeartBeatTime":1648987945857,"metadataId":"192.168.56.1:10000:DEFAULT"}
+
+2022-04-03 20:13:00,652 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=5}, 192.168.56.1:10000#true
+
+2022-04-03 20:13:01,860 INFO Client connection 192.168.56.1:8000#true disconnect, remove instances and subscribers
+
+2022-04-03 20:13:01,860 INFO Client connection 192.168.56.1:10000#true disconnect, remove instances and subscribers
+
+2022-04-03 20:13:01,860 INFO Client connection 192.168.56.1:8080#true disconnect, remove instances and subscribers
+
+2022-04-03 20:13:56,391 WARN namespace : public, [DEFAULT_GROUP@@gulimall-gateway] services are automatically cleaned
+
+2022-04-03 20:13:56,394 WARN namespace : public, [DEFAULT_GROUP@@gulimall-search] services are automatically cleaned
+
+2022-04-03 20:13:56,394 WARN namespace : public, [DEFAULT_GROUP@@gulimall-ware] services are automatically cleaned
+
+2022-04-03 20:13:56,394 WARN namespace : public, [DEFAULT_GROUP@@gulimall-coupon] services are automatically cleaned
+
+2022-04-03 20:14:56,397 WARN namespace : public, [DEFAULT_GROUP@@renren-fast] services are automatically cleaned
+
+2022-04-03 20:14:56,397 WARN namespace : public, [DEFAULT_GROUP@@gulimall-product] services are automatically cleaned
+
+2022-04-03 20:14:56,397 WARN namespace : public, [DEFAULT_GROUP@@gulimall-member] services are automatically cleaned
+
+2022-04-03 20:19:46,551 INFO Client connection 192.168.56.1:88#true connect
+
+2022-04-03 20:19:46,552 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-gateway', ephemeral=true, revision=0}, 192.168.56.1:88#true
+
+2022-04-03 20:21:10,194 INFO Client connection 192.168.56.1:10000#true connect
+
+2022-04-03 20:21:10,194 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=0}, 192.168.56.1:10000#true
+
+2022-04-03 21:09:20,192 INFO Client connection 192.168.56.1:10001#true connect
+
+2022-04-03 21:09:20,195 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=1}, 192.168.56.1:10001#true
+
+2022-04-03 21:09:50,204 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=2}, ip: {"ip":"192.168.56.1","port":10001,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.56.1#10001#DEFAULT#DEFAULT_GROUP@@gulimall-product"},"lastHeartBeatTime":1648991360194,"metadataId":"192.168.56.1:10001:DEFAULT"}
+
+2022-04-03 21:09:50,204 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=2}, 192.168.56.1:10001#true
+
+2022-04-03 21:09:52,587 INFO Client connection 192.168.56.1:10001#true disconnect, remove instances and subscribers
+
+2022-04-03 21:09:55,756 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=3}, ip: {"ip":"192.168.56.1","port":10000,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.56.1#10000#DEFAULT#DEFAULT_GROUP@@gulimall-product"},"lastHeartBeatTime":1648991362404,"metadataId":"192.168.56.1:10000:DEFAULT"}
+
+2022-04-03 21:09:55,756 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-product', ephemeral=true, revision=3}, 192.168.56.1:10000#true
+
+2022-04-03 21:09:57,198 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-gateway', ephemeral=true, revision=1}, ip: {"ip":"192.168.56.1","port":88,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.56.1#88#DEFAULT#DEFAULT_GROUP@@gulimall-gateway"},"lastHeartBeatTime":1648991363935,"metadataId":"192.168.56.1:88:DEFAULT"}
+
+2022-04-03 21:09:57,198 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='gulimall-gateway', ephemeral=true, revision=1}, 192.168.56.1:88#true
+
+2022-04-03 21:09:57,588 INFO Client connection 192.168.56.1:10000#true disconnect, remove instances and subscribers
+
+2022-04-03 21:09:57,588 INFO Client connection 192.168.56.1:88#true disconnect, remove instances and subscribers
+

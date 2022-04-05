@@ -1,0 +1,13 @@
+2022-03-31 17:23:50,897|29|null|127.0.0.1|get|gulimall-search|DEFAULT_GROUP|||unknown
+2022-03-31 17:23:50,978|3|null|127.0.0.1|get|gulimall-search.properties|DEFAULT_GROUP|||unknown
+2022-03-31 17:23:58,105|0|nohangup|127.0.0.1|polling|1|31|0
+2022-03-31 17:23:58,112|0|nohangup|127.0.0.1|polling|2|73|0
+2022-03-31 17:24:27,820|29503|timeout|127.0.0.1|polling|2|73
+2022-03-31 17:45:36,251|3|null|127.0.0.1|get|gulimall-search|DEFAULT_GROUP|||unknown
+2022-03-31 17:45:36,275|1|null|127.0.0.1|get|gulimall-search.properties|DEFAULT_GROUP|||unknown
+2022-03-31 17:45:43,680|0|nohangup|127.0.0.1|polling|2|73|0
+2022-03-31 17:46:13,377|29502|timeout|127.0.0.1|polling|2|73
+2022-03-31 18:28:17,328|3|null|127.0.0.1|get|gulimall-search|DEFAULT_GROUP|||unknown
+2022-03-31 18:28:17,353|1|null|127.0.0.1|get|gulimall-search.properties|DEFAULT_GROUP|||unknown
+2022-03-31 18:28:25,173|0|nohangup|127.0.0.1|polling|2|73|0
+2022-03-31 18:28:54,872|29503|timeout|127.0.0.1|polling|2|73

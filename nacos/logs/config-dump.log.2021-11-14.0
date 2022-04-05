@@ -1,0 +1,24 @@
+2021-11-14 09:58:54,137 INFO [dump-all-ok] common-config.yaml+DEFAULT_GROUP, 1636248487115, length=2056, md5=5a1afe537f263a969df7ff09340ccec7
+
+2021-11-14 09:58:54,141 INFO [dump-all-ok] core-gateway+DEFAULT_GROUP, 1636250435814, length=226, md5=25d0028f201b7c638c8e2a4fe28e3fef
+
+2021-11-14 09:58:54,141 INFO [dump-all-ok] file-gateway+DEFAULT_GROUP, 1636248487115, length=163, md5=545517ba2a3afd4207abfef5e65d8d96
+
+2021-11-14 09:58:54,143 INFO [dump-all-ok] file-gateway-route-refresh.json+DEFAULT_GROUP, 1636248487115, length=595, md5=7d0bd8072a360b579838af98ca9313b4
+
+2021-11-14 09:58:54,144 INFO [dump-all-ok] gateway-route-refresh.json+DEFAULT_GROUP, 1636248487115, length=2197, md5=8cf6ad16c892107248d5132dc4429b40
+
+2021-11-14 09:58:54,145 INFO [dump-all-ok] user-service+DEFAULT_GROUP, 1636248487115, length=96, md5=c0fd8f3a7fb427dd7b17bbed58c4855b
+
+2021-11-14 16:51:32,155 INFO [dump-task] add task. groupKey=common-config.yaml+DEFAULT_GROUP, taskKey=common-config.yaml+DEFAULT_GROUP++false+null
+
+2021-11-14 16:51:32,156 INFO [dump-task] add task. groupKey=file-gateway+DEFAULT_GROUP, taskKey=file-gateway+DEFAULT_GROUP++false+null
+
+2021-11-14 16:51:32,162 INFO [dump-task] add task. groupKey=core-gateway+DEFAULT_GROUP, taskKey=core-gateway+DEFAULT_GROUP++false+null
+
+2021-11-14 16:51:32,174 INFO [dump-task] add task. groupKey=gateway-route-refresh.json+DEFAULT_GROUP, taskKey=gateway-route-refresh.json+DEFAULT_GROUP++false+null
+
+2021-11-14 16:51:32,179 INFO [dump-task] add task. groupKey=user-service+DEFAULT_GROUP, taskKey=user-service+DEFAULT_GROUP++false+null
+
+2021-11-14 16:51:32,182 INFO [dump-task] add task. groupKey=file-gateway-route-refresh.json+DEFAULT_GROUP, taskKey=file-gateway-route-refresh.json+DEFAULT_GROUP++false+null
+

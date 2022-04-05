@@ -1,0 +1,34 @@
+2022-04-02 10:41:09,063 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:88@DEFAULT@gulimall-gateway, region: unknown, msg: client last beat: 1648867250037
+
+2022-04-02 15:57:19,822 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:10000@DEFAULT@gulimall-product, region: unknown, msg: client last beat: 1648886222562
+
+2022-04-02 16:00:49,912 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:10000@DEFAULT@gulimall-product, region: unknown, msg: client last beat: 1648886434203
+
+2022-04-02 16:01:23,527 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:88@DEFAULT@gulimall-gateway, region: unknown, msg: client last beat: 1648886467445
+
+2022-04-02 16:27:00,368 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:10000@DEFAULT@gulimall-product, region: unknown, msg: client last beat: 1648888002480
+
+2022-04-02 16:33:45,504 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:10000@DEFAULT@gulimall-product, region: unknown, msg: client last beat: 1648888407508
+
+2022-04-02 16:49:36,001 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:10000@DEFAULT@gulimall-product, region: unknown, msg: client last beat: 1648889357067
+
+2022-04-02 16:50:46,020 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:10000@DEFAULT@gulimall-product, region: unknown, msg: client last beat: 1648889426229
+
+2022-04-02 16:56:36,083 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:10000@DEFAULT@gulimall-product, region: unknown, msg: client last beat: 1648889780768
+
+2022-04-02 17:18:56,338 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:10000@DEFAULT@gulimall-product, region: unknown, msg: client last beat: 1648891116399
+
+2022-04-02 17:27:49,933 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:7000@DEFAULT@gulimall-coupon, region: unknown, msg: client last beat: 1648891651863
+
+2022-04-02 17:27:50,192 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:11000@DEFAULT@gulimall-ware, region: unknown, msg: client last beat: 1648891653608
+
+2022-04-02 17:27:51,093 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:12000@DEFAULT@gulimall-search, region: unknown, msg: client last beat: 1648891655697
+
+2022-04-02 17:27:51,473 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:10000@DEFAULT@gulimall-product, region: unknown, msg: client last beat: 1648891655051
+
+2022-04-02 17:27:52,439 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8000@DEFAULT@gulimall-member, region: unknown, msg: client last beat: 1648891654204
+
+2022-04-02 17:27:53,453 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8080@DEFAULT@renren-fast, region: unknown, msg: client last beat: 1648891654072
+
+2022-04-02 17:27:54,931 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:88@DEFAULT@gulimall-gateway, region: unknown, msg: client last beat: 1648891655245
+

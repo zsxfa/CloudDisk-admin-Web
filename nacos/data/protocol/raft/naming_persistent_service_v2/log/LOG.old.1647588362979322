@@ -1,0 +1,193 @@
+2022/03/18-15:23:03.735033 1d08 RocksDB version: 5.18.4
+2022/03/18-15:23:03.735187 1d08 Git sha rocksdb_build_git_sha:@b9a4a10659969c71e6f6eab4e4bae8c36ede919f@
+2022/03/18-15:23:03.735214 1d08 Compile date Mar 11 2020
+2022/03/18-15:23:03.735242 1d08 DB SUMMARY
+2022/03/18-15:23:03.735760 1d08 IDENTITY file:  IDENTITY
+2022/03/18-15:23:03.736049 1d08 MANIFEST file:  MANIFEST-000223 size: 1379 Bytes
+2022/03/18-15:23:03.736080 1d08 SST files in D:\Developer\bishe\nacos\data\protocol\raft\naming_persistent_service_v2\log dir, Total Num: 1, files: 000229.sst 
+2022/03/18-15:23:03.736104 1d08 Write Ahead Log file in D:\Developer\bishe\nacos\data\protocol\raft\naming_persistent_service_v2\log: 000225.log size: 2471 ; 
+2022/03/18-15:23:03.736130 1d08                         Options.error_if_exists: 0
+2022/03/18-15:23:03.736229 1d08                       Options.create_if_missing: 1
+2022/03/18-15:23:03.736243 1d08                         Options.paranoid_checks: 1
+2022/03/18-15:23:03.736252 1d08                                     Options.env: 00000000205C3F10
+2022/03/18-15:23:03.736261 1d08                                Options.info_log: 000000002E512280
+2022/03/18-15:23:03.736270 1d08                Options.max_file_opening_threads: 16
+2022/03/18-15:23:03.736279 1d08                              Options.statistics: 0000000020604F80
+2022/03/18-15:23:03.736288 1d08                               Options.use_fsync: 0
+2022/03/18-15:23:03.736297 1d08                       Options.max_log_file_size: 0
+2022/03/18-15:23:03.736305 1d08                  Options.max_manifest_file_size: 1073741824
+2022/03/18-15:23:03.736314 1d08                   Options.log_file_time_to_roll: 0
+2022/03/18-15:23:03.736323 1d08                       Options.keep_log_file_num: 1000
+2022/03/18-15:23:03.736332 1d08                    Options.recycle_log_file_num: 0
+2022/03/18-15:23:03.736340 1d08                         Options.allow_fallocate: 1
+2022/03/18-15:23:03.736349 1d08                        Options.allow_mmap_reads: 0
+2022/03/18-15:23:03.736358 1d08                       Options.allow_mmap_writes: 0
+2022/03/18-15:23:03.736366 1d08                        Options.use_direct_reads: 0
+2022/03/18-15:23:03.736375 1d08                        Options.use_direct_io_for_flush_and_compaction: 0
+2022/03/18-15:23:03.736384 1d08          Options.create_missing_column_families: 1
+2022/03/18-15:23:03.736392 1d08                              Options.db_log_dir: 
+2022/03/18-15:23:03.736401 1d08                                 Options.wal_dir: D:\Developer\bishe\nacos\data\protocol\raft\naming_persistent_service_v2\log
+2022/03/18-15:23:03.736412 1d08                Options.table_cache_numshardbits: 6
+2022/03/18-15:23:03.736421 1d08                      Options.max_subcompactions: 1
+2022/03/18-15:23:03.736429 1d08                  Options.max_background_flushes: 1
+2022/03/18-15:23:03.736438 1d08                         Options.WAL_ttl_seconds: 0
+2022/03/18-15:23:03.736447 1d08                       Options.WAL_size_limit_MB: 0
+2022/03/18-15:23:03.736456 1d08             Options.manifest_preallocation_size: 4194304
+2022/03/18-15:23:03.736465 1d08                     Options.is_fd_close_on_exec: 1
+2022/03/18-15:23:03.736473 1d08                   Options.advise_random_on_open: 1
+2022/03/18-15:23:03.736482 1d08                    Options.db_write_buffer_size: 0
+2022/03/18-15:23:03.736491 1d08                    Options.write_buffer_manager: 000000002E50C830
+2022/03/18-15:23:03.736499 1d08         Options.access_hint_on_compaction_start: 1
+2022/03/18-15:23:03.736508 1d08  Options.new_table_reader_for_compaction_inputs: 0
+2022/03/18-15:23:03.736517 1d08           Options.random_access_max_buffer_size: 1048576
+2022/03/18-15:23:03.736525 1d08                      Options.use_adaptive_mutex: 0
+2022/03/18-15:23:03.736534 1d08                            Options.rate_limiter: 0000000000000000
+2022/03/18-15:23:03.736543 1d08     Options.sst_file_manager.rate_bytes_per_sec: 0
+2022/03/18-15:23:03.736552 1d08                       Options.wal_recovery_mode: 2
+2022/03/18-15:23:03.736561 1d08                  Options.enable_thread_tracking: 0
+2022/03/18-15:23:03.736598 1d08                  Options.enable_pipelined_write: 0
+2022/03/18-15:23:03.736608 1d08         Options.allow_concurrent_memtable_write: 1
+2022/03/18-15:23:03.736617 1d08      Options.enable_write_thread_adaptive_yield: 1
+2022/03/18-15:23:03.736625 1d08             Options.write_thread_max_yield_usec: 100
+2022/03/18-15:23:03.736634 1d08            Options.write_thread_slow_yield_usec: 3
+2022/03/18-15:23:03.736643 1d08                               Options.row_cache: None
+2022/03/18-15:23:03.736652 1d08                              Options.wal_filter: None
+2022/03/18-15:23:03.736661 1d08             Options.avoid_flush_during_recovery: 0
+2022/03/18-15:23:03.736669 1d08             Options.allow_ingest_behind: 0
+2022/03/18-15:23:03.736678 1d08             Options.preserve_deletes: 0
+2022/03/18-15:23:03.736687 1d08             Options.two_write_queues: 0
+2022/03/18-15:23:03.736695 1d08             Options.manual_wal_flush: 0
+2022/03/18-15:23:03.736704 1d08             Options.max_background_jobs: 2
+2022/03/18-15:23:03.736712 1d08             Options.max_background_compactions: 4
+2022/03/18-15:23:03.736721 1d08             Options.avoid_flush_during_shutdown: 0
+2022/03/18-15:23:03.736730 1d08           Options.writable_file_max_buffer_size: 1048576
+2022/03/18-15:23:03.736739 1d08             Options.delayed_write_rate : 16777216
+2022/03/18-15:23:03.736747 1d08             Options.max_total_wal_size: 0
+2022/03/18-15:23:03.736756 1d08             Options.delete_obsolete_files_period_micros: 21600000000
+2022/03/18-15:23:03.736765 1d08                   Options.stats_dump_period_sec: 600
+2022/03/18-15:23:03.736774 1d08                          Options.max_open_files: -1
+2022/03/18-15:23:03.736784 1d08                          Options.bytes_per_sync: 0
+2022/03/18-15:23:03.736793 1d08                      Options.wal_bytes_per_sync: 0
+2022/03/18-15:23:03.736802 1d08       Options.compaction_readahead_size: 0
+2022/03/18-15:23:03.736811 1d08 Compression algorithms supported:
+2022/03/18-15:23:03.736820 1d08 	kZSTD supported: 1
+2022/03/18-15:23:03.736828 1d08 	kSnappyCompression supported: 1
+2022/03/18-15:23:03.736837 1d08 	kBZip2Compression supported: 0
+2022/03/18-15:23:03.736846 1d08 	kZlibCompression supported: 1
+2022/03/18-15:23:03.736854 1d08 	kLZ4Compression supported: 1
+2022/03/18-15:23:03.736863 1d08 	kXpressCompression supported: 0
+2022/03/18-15:23:03.736872 1d08 	kLZ4HCCompression supported: 1
+2022/03/18-15:23:03.736880 1d08 	kZSTDNotFinalCompression supported: 1
+2022/03/18-15:23:03.736895 1d08 Fast CRC32 supported: Supported on x86
+2022/03/18-15:23:03.737637 1d08 [db\db_impl_open.cc:226] Creating manifest 1 
+2022/03/18-15:23:03.750243 1d08 [db\version_set.cc:3508] Recovering from manifest file: MANIFEST-000001
+2022/03/18-15:23:03.750475 1d08 [db\column_family.cc:474] --------------- Options for column family [default]:
+2022/03/18-15:23:03.750499 1d08               Options.comparator: leveldb.BytewiseComparator
+2022/03/18-15:23:03.750509 1d08           Options.merge_operator: StringAppendOperator
+2022/03/18-15:23:03.750518 1d08        Options.compaction_filter: None
+2022/03/18-15:23:03.750527 1d08        Options.compaction_filter_factory: None
+2022/03/18-15:23:03.750536 1d08         Options.memtable_factory: SkipListFactory
+2022/03/18-15:23:03.750545 1d08            Options.table_factory: BlockBasedTable
+2022/03/18-15:23:03.750574 1d08            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0000000000856C00)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 1
+  pin_l0_filter_and_index_blocks_in_cache: 1
+  pin_top_level_index_and_filter: 1
+  index_type: 2
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 000000002053FA40
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 536870912
+    num_shard_bits : 8
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 8192
+  partition_filters: 1
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 0
+  enable_index_compression: 1
+  block_align: 0
+2022/03/18-15:23:03.750621 1d08        Options.write_buffer_size: 67108864
+2022/03/18-15:23:03.750631 1d08  Options.max_write_buffer_number: 3
+2022/03/18-15:23:03.750640 1d08          Options.compression: Snappy
+2022/03/18-15:23:03.750649 1d08                  Options.bottommost_compression: Disabled
+2022/03/18-15:23:03.750658 1d08       Options.prefix_extractor: rocksdb.FixedPrefix.8
+2022/03/18-15:23:03.750666 1d08   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2022/03/18-15:23:03.750675 1d08             Options.num_levels: 7
+2022/03/18-15:23:03.750684 1d08        Options.min_write_buffer_number_to_merge: 1
+2022/03/18-15:23:03.750693 1d08     Options.max_write_buffer_number_to_maintain: 0
+2022/03/18-15:23:03.750701 1d08            Options.bottommost_compression_opts.window_bits: -14
+2022/03/18-15:23:03.750710 1d08                  Options.bottommost_compression_opts.level: 32767
+2022/03/18-15:23:03.750719 1d08               Options.bottommost_compression_opts.strategy: 0
+2022/03/18-15:23:03.750728 1d08         Options.bottommost_compression_opts.max_dict_bytes: 0
+2022/03/18-15:23:03.750737 1d08         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2022/03/18-15:23:03.750746 1d08                  Options.bottommost_compression_opts.enabled: false
+2022/03/18-15:23:03.750754 1d08            Options.compression_opts.window_bits: -14
+2022/03/18-15:23:03.750763 1d08                  Options.compression_opts.level: 32767
+2022/03/18-15:23:03.750772 1d08               Options.compression_opts.strategy: 0
+2022/03/18-15:23:03.750780 1d08         Options.compression_opts.max_dict_bytes: 0
+2022/03/18-15:23:03.750789 1d08         Options.compression_opts.zstd_max_train_bytes: 0
+2022/03/18-15:23:03.750798 1d08                  Options.compression_opts.enabled: false
+2022/03/18-15:23:03.750807 1d08      Options.level0_file_num_compaction_trigger: 10
+2022/03/18-15:23:03.750815 1d08          Options.level0_slowdown_writes_trigger: 20
+2022/03/18-15:23:03.750824 1d08              Options.level0_stop_writes_trigger: 40
+2022/03/18-15:23:03.750833 1d08                   Options.target_file_size_base: 67108864
+2022/03/18-15:23:03.750841 1d08             Options.target_file_size_multiplier: 1
+2022/03/18-15:23:03.750850 1d08                Options.max_bytes_for_level_base: 536870912
+2022/03/18-15:23:03.750859 1d08 Options.level_compaction_dynamic_level_bytes: 0
+2022/03/18-15:23:03.750868 1d08          Options.max_bytes_for_level_multiplier: 10.000000
+2022/03/18-15:23:03.750882 1d08 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2022/03/18-15:23:03.750891 1d08 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2022/03/18-15:23:03.750900 1d08 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2022/03/18-15:23:03.750908 1d08 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2022/03/18-15:23:03.750917 1d08 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2022/03/18-15:23:03.750926 1d08 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2022/03/18-15:23:03.750935 1d08 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2022/03/18-15:23:03.750943 1d08       Options.max_sequential_skip_in_iterations: 8
+2022/03/18-15:23:03.750952 1d08                    Options.max_compaction_bytes: 1677721600
+2022/03/18-15:23:03.750961 1d08                        Options.arena_block_size: 8388608
+2022/03/18-15:23:03.750969 1d08   Options.soft_pending_compaction_bytes_limit: 68719476736
+2022/03/18-15:23:03.750978 1d08   Options.hard_pending_compaction_bytes_limit: 274877906944
+2022/03/18-15:23:03.750987 1d08       Options.rate_limit_delay_max_milliseconds: 100
+2022/03/18-15:23:03.750996 1d08                Options.disable_auto_compactions: 0
+2022/03/18-15:23:03.751005 1d08                        Options.compaction_style: kCompactionStyleLevel
+2022/03/18-15:23:03.751015 1d08                          Options.compaction_pri: kByCompensatedSize
+2022/03/18-15:23:03.751024 1d08 Options.compaction_options_universal.size_ratio: 1
+2022/03/18-15:23:03.751033 1d08 Options.compaction_options_universal.min_merge_width: 2
+2022/03/18-15:23:03.751042 1d08 Options.compaction_options_universal.max_merge_width: 4294967295
+2022/03/18-15:23:03.751051 1d08 Options.compaction_options_universal.max_size_amplification_percent: 200
+2022/03/18-15:23:03.751060 1d08 Options.compaction_options_universal.compression_size_percent: -1
+2022/03/18-15:23:03.751070 1d08 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2022/03/18-15:23:03.751079 1d08 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2022/03/18-15:23:03.751088 1d08 Options.compaction_options_fifo.allow_compaction: 0
+2022/03/18-15:23:03.751096 1d08 Options.compaction_options_fifo.ttl: 0
+2022/03/18-15:23:03.751105 1d08                   Options.table_properties_collectors: 
+2022/03/18-15:23:03.751114 1d08                   Options.inplace_update_support: 0
+2022/03/18-15:23:03.751122 1d08                 Options.inplace_update_num_locks: 10000
+2022/03/18-15:23:03.751131 1d08               Options.memtable_prefix_bloom_size_ratio: 0.125000
+2022/03/18-15:23:03.751140 1d08   Options.memtable_huge_page_size: 0
+2022/03/18-15:23:03.751149 1d08                           Options.bloom_locality: 0
+2022/03/18-15:23:03.751157 1d08                    Options.max_successive_merges: 0
+2022/03/18-15:23:03.751166 1d08                Options.optimize_filters_for_hits: 0
+2022/03/18-15:23:03.751174 1d08                Options.paranoid_file_checks: 0
+2022/03/18-15:23:03.751183 1d08                Options.force_consistency_checks: 1
+2022/03/18-15:23:03.751191 1d08                Options.report_bg_io_stats: 0
+2022/03/18-15:23:03.751200 1d08                               Options.ttl: 0
+2022/03/18-15:23:03.754856 1d08 [db\version_set.cc:3724] Recovered from manifest file:D:\Developer\bishe\nacos\data\protocol\raft\naming_persistent_service_v2\log/MANIFEST-000001 succeeded,manifest_file_number is 1, next_file_number is 3, last_sequence is 0, log_number is 0,prev_log_number is 0,max_column_family is 0,min_log_number_to_keep is 0
+2022/03/18-15:23:03.754885 1d08 [db\version_set.cc:3732] Column family [default] (ID 0), log number is 0
+2022/03/18-15:23:03.755347 1d08 [db\db_impl.cc:388] Shutdown: canceling all background work
+2022/03/18-15:23:03.756381 1d08 [db\db_impl.cc:562] Shutdown complete
