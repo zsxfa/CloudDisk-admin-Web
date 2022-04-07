@@ -1,31 +1,35 @@
 <template>
-  <el-menu class="navbar" mode="horizontal">
+  <!-- <el-menu class="navbar" mode="horizontal"> -->
+  <div class="navbar">
     <hamburger
       @toggleClick="toggleSideBar"
       :is-active="sidebar.opened"
       class="hamburger-container"
     />
-    <breadcrumb />
+    <breadcrumb class="breadcrumb-container" />
 
-    <el-dropdown class="avatar-container" trigger="click">
-      <div class="el-menu-item username">
-        <i class="el-icon-user-solid"></i>
-        {{ showUserName }}
+    <!-- <div class="right-menu"> -->
+      <el-dropdown class="avatar-container" trigger="click">
+        <div class="el-menu-item username">
+          <i class="el-icon-user-solid"></i>
+          {{ showUserName }}
 
-        <i class="el-icon-caret-bottom" />
-      </div>
+          <i class="el-icon-caret-bottom" />
+        </div>
 
-      <el-dropdown-menu slot="dropdown" class="user-dropdown">
-        <router-link class="inlineBlock" to="/">
-          <el-dropdown-item>主页</el-dropdown-item>
-        </router-link>
+        <el-dropdown-menu slot="dropdown" class="user-dropdown">
+          <router-link class="inlineBlock" to="/">
+            <el-dropdown-item>主页</el-dropdown-item>
+          </router-link>
 
-        <el-dropdown-item divided>
-          <span style="display: block" @click="logout">登出</span>
-        </el-dropdown-item>
-      </el-dropdown-menu>
-    </el-dropdown>
-  </el-menu>
+          <el-dropdown-item divided>
+            <span style="display: block" @click="logout">登出</span>
+          </el-dropdown-item>
+        </el-dropdown-menu>
+      </el-dropdown>
+      </el-menu>
+    </div>
+  <!-- </div> -->
 </template>
 
 <script>
@@ -47,13 +51,22 @@ export default {
   },
   methods: {
     toggleSideBar() {
-      this.$store.dispatch('ToggleSideBar')
+      debugger
+      console.log('-1-1-1-1-1-1-')
+      // console.log(sidebar.opened)
+      console.log('-1-1-1-1-1-1-')
+      // this.$store.dispatch('ToggleSideBar')
+      this.$store.dispatch('app/toggleSideBar')
     },
-    logout() {
-      this.$store.dispatch('LogOut').then(() => {
-        location.reload() // 为了重新实例化vue-router对象 避免bug
-      })
+    async logout() {
+      await this.$store.dispatch('user/logout')
+      this.$router.push(`/login?redirect=${this.$route.fullPath}`)
     },
+    // logout() {
+    //   this.$store.dispatch('LogOut').then(() => {
+    //     location.reload() // 为了重新实例化vue-router对象 避免bug
+    //   })
+    // },
   },
 }
 </script>

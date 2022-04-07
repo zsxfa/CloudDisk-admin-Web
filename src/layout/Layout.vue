@@ -7,7 +7,9 @@
     />
     <sidebar class="sidebar-container" />
     <div class="main-container">
-      <navbar />
+      <div :class="{ 'fixed-header': fixedHeader }">
+        <navbar />
+      </div>
       <app-main />
     </div>
   </div>
@@ -32,6 +34,9 @@ export default {
     device() {
       return this.$store.state.app.device
     },
+    fixedHeader() {
+      return this.$store.state.settings.fixedHeader
+    },
 
     classObj() {
       return {
@@ -44,7 +49,8 @@ export default {
   },
   methods: {
     handleClickOutside() {
-      this.$store.dispatch('CloseSideBar', { withoutAnimation: false })
+      // this.$store.dispatch('CloseSideBar', { withoutAnimation: false })
+      this.$store.dispatch('app/closeSideBar', { withoutAnimation: false })
     },
   },
 }
